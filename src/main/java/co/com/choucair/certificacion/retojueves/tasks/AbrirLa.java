@@ -1,6 +1,6 @@
-package co.com.choucair.certificacion.retomiercoles.tasks;
+package co.com.choucair.certificacion.retojueves.tasks;
 
-import co.com.choucair.certificacion.retomiercoles.userinterfaces.PaginaInicial;
+import co.com.choucair.certificacion.retojueves.userinterfaces.PaginaInicial;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
@@ -10,7 +10,7 @@ public class AbrirLa implements Task {
 
     private PaginaInicial paginaInicial;
 
-    public static AbrirLa Page() {
+    public static AbrirLa Pagina() {
         return Tasks.instrumented(AbrirLa.class);
     }
 
